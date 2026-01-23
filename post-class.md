@@ -98,6 +98,7 @@ Table restaurants {
   id int [pk]
   name varchar
   cuisine varchar
+  rating decimal // Added rating as per requirements
 }
 
 Table menu_items {
